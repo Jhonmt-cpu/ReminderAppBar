@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316C3A1B2C03F5EA008951CC /* LabelMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C3A1A2C03F5EA008951CC /* LabelMenuBar.swift */; };
+		316DA4F92C04F1CB004FA471 /* ReminderToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316DA4F82C04F1CB004FA471 /* ReminderToggle.swift */; };
+		316DA4FC2C04FADB004FA471 /* ReminderFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316DA4FB2C04FADB004FA471 /* ReminderFormatter.swift */; };
 		319BB0B62C00D34300A43AC4 /* ReminderMenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BB0B52C00D34300A43AC4 /* ReminderMenuBarApp.swift */; };
 		319BB0B82C00D34300A43AC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BB0B72C00D34300A43AC4 /* ContentView.swift */; };
 		319BB0BA2C00D34500A43AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319BB0B92C00D34500A43AC4 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 		319BB0C82C00D34500A43AC4 /* ReminderMenuBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BB0C72C00D34500A43AC4 /* ReminderMenuBarTests.swift */; };
 		319BB0D22C00D34500A43AC4 /* ReminderMenuBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BB0D12C00D34500A43AC4 /* ReminderMenuBarUITests.swift */; };
 		319BB0D42C00D34500A43AC4 /* ReminderMenuBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BB0D32C00D34500A43AC4 /* ReminderMenuBarUITestsLaunchTests.swift */; };
+		319BB0E12C00D44A00A43AC4 /* ReminderModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BB0E02C00D44A00A43AC4 /* ReminderModelData.swift */; };
+		31B29E672C1909DE00EA232D /* EmptyStateReminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B29E662C1909DE00EA232D /* EmptyStateReminders.swift */; };
+		31B29E6A2C1912EF00EA232D /* PadEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B29E692C1912EF00EA232D /* PadEnd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		316C3A1A2C03F5EA008951CC /* LabelMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelMenuBar.swift; sourceTree = "<group>"; };
+		316DA4F82C04F1CB004FA471 /* ReminderToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderToggle.swift; sourceTree = "<group>"; };
+		316DA4FB2C04FADB004FA471 /* ReminderFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderFormatter.swift; sourceTree = "<group>"; };
 		319BB0B22C00D34300A43AC4 /* ReminderMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319BB0B52C00D34300A43AC4 /* ReminderMenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderMenuBarApp.swift; sourceTree = "<group>"; };
 		319BB0B72C00D34300A43AC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,9 @@
 		319BB0CD2C00D34500A43AC4 /* ReminderMenuBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderMenuBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		319BB0D12C00D34500A43AC4 /* ReminderMenuBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderMenuBarUITests.swift; sourceTree = "<group>"; };
 		319BB0D32C00D34500A43AC4 /* ReminderMenuBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderMenuBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		319BB0E02C00D44A00A43AC4 /* ReminderModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModelData.swift; sourceTree = "<group>"; };
+		31B29E662C1909DE00EA232D /* EmptyStateReminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateReminders.swift; sourceTree = "<group>"; };
+		31B29E692C1912EF00EA232D /* PadEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadEnd.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		316C3A1C2C040B77008951CC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				316DA4F72C04F1B2004FA471 /* Components */,
+				316C3A1A2C03F5EA008951CC /* LabelMenuBar.swift */,
+				319BB0B72C00D34300A43AC4 /* ContentView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		316C3A1D2C040B8C008951CC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				319BB0E02C00D44A00A43AC4 /* ReminderModelData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		316C3A1E2C040BB1008951CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				319BB0B92C00D34500A43AC4 /* Assets.xcassets */,
+				319BB0BB2C00D34500A43AC4 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		316DA4F72C04F1B2004FA471 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				316DA4F82C04F1CB004FA471 /* ReminderToggle.swift */,
+				31B29E662C1909DE00EA232D /* EmptyStateReminders.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		316DA4FA2C04FAC7004FA471 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				316DA4FB2C04FADB004FA471 /* ReminderFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		319BB0A92C00D34300A43AC4 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +151,13 @@
 		319BB0B42C00D34300A43AC4 /* ReminderMenuBar */ = {
 			isa = PBXGroup;
 			children = (
+				31B29E682C1912DB00EA232D /* Extensions */,
+				316DA4FA2C04FAC7004FA471 /* Utils */,
+				316C3A1C2C040B77008951CC /* Presentation */,
+				316C3A1D2C040B8C008951CC /* Data */,
+				316C3A1E2C040BB1008951CC /* Resources */,
 				319BB0B52C00D34300A43AC4 /* ReminderMenuBarApp.swift */,
-				319BB0B72C00D34300A43AC4 /* ContentView.swift */,
-				319BB0B92C00D34500A43AC4 /* Assets.xcassets */,
 				319BB0BE2C00D34500A43AC4 /* ReminderMenuBar.entitlements */,
-				319BB0BB2C00D34500A43AC4 /* Preview Content */,
 			);
 			path = ReminderMenuBar;
 			sourceTree = "<group>";
@@ -127,6 +185,14 @@
 				319BB0D32C00D34500A43AC4 /* ReminderMenuBarUITestsLaunchTests.swift */,
 			);
 			path = ReminderMenuBarUITests;
+			sourceTree = "<group>";
+		};
+		31B29E682C1912DB00EA232D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				31B29E692C1912EF00EA232D /* PadEnd.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319BB0E12C00D44A00A43AC4 /* ReminderModelData.swift in Sources */,
 				319BB0B82C00D34300A43AC4 /* ContentView.swift in Sources */,
+				316DA4FC2C04FADB004FA471 /* ReminderFormatter.swift in Sources */,
+				31B29E6A2C1912EF00EA232D /* PadEnd.swift in Sources */,
 				319BB0B62C00D34300A43AC4 /* ReminderMenuBarApp.swift in Sources */,
+				31B29E672C1909DE00EA232D /* EmptyStateReminders.swift in Sources */,
+				316DA4F92C04F1CB004FA471 /* ReminderToggle.swift in Sources */,
+				316C3A1B2C03F5EA008951CC /* LabelMenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,15 +493,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ReminderMenuBar/ReminderMenuBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ReminderMenuBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ReminderMenuBar/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = WJAZ3XSD4V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Reminder App Bar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "We need permission to your reminders";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -448,15 +525,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ReminderMenuBar/ReminderMenuBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ReminderMenuBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ReminderMenuBar/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = WJAZ3XSD4V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Reminder App Bar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "We need permission to your reminders";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -474,6 +556,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WJAZ3XSD4V;
@@ -493,6 +576,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WJAZ3XSD4V;
@@ -511,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WJAZ3XSD4V;
@@ -528,6 +613,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WJAZ3XSD4V;
